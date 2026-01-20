@@ -25,7 +25,7 @@ aggfunc='mean' Normal davranışı bulmak istediğim için verilerin ortalaması
 
 Modelimin kopya çekmesin diye girdi kısmına saat, sıcaklık, nem , basınçı verdim. Tüketim bilgisini de gizledim. Modelime veriyi %80 eğitim %20 test şeklinde ayırdım.
 
-![KOD BLOĞU1](akilliev3.png)
+![KOD BLOĞU1](akilliev10.png)
 
 
 Veri setimde hava durumu, saat, basınç gibi birbiriyle karmaşık ilişki olduğu için random forest modelini seçtim. KNN modelini de yeni gelen bir veriyi geçmişteki en benzer verileri bulup onun ortalamasını aldığı için akıllı ev sistemlerinde mantıklı sonuçlar verceğini düşündüm. KNN modelini kullanırken basınç ve nem arasındaki değer olarak çok fark olduğundan basınçın etkisini çok abartıyordu o yüzden standartscaler kullanıp sayı aralığını eşitledim. R2 skorlarına bakarak hangisinin daha iyi sonuç verdiğine karar verdim.
@@ -54,5 +54,6 @@ Yaptığım testler sonucunda RandomForest modelinin KNN modeline göre daha ver
 
 
 # Sertifika
+
 
 ![KOD BLOĞU1](sertifika.png)
